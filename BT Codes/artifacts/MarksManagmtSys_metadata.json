@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_ID",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lName",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "_marks",
+						"type": "int256"
+					}
+				],
+				"name": "addNewRecords",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stdCount",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"name": "stdRecords",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "ID",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lName",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "marks",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bt3.sol": "MarksManagmtSys"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bt3.sol": {
+			"keccak256": "0x4b77222f0cff1ccd2e485cb6898555d06ca74d6387babf7349324b648723ec20",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3d5dadec00cb8270308ff493ca0d0ad741fdb4f5ceb01535c28f6a2868f56eac",
+				"dweb:/ipfs/QmUB6NLPMHty5hRMuC7sKCAwJoEEkManh2VPNFvNoSvpMx"
+			]
+		}
+	},
+	"version": 1
+}
